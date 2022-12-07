@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "bank_service_id": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::loan-catagory.loan-catagory",
+      "inversedBy": "products"
+    },
+    "monthly_avg_balance": {
+      "type": "biginteger"
+    },
+    "product_details": {
+      "type": "json"
+    },
+    "brochure": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "features": {
+      "type": "json"
+    },
+    "rates_and_charges": {
+      "type": "json"
+    },
+    "eligibility_criteria": {
+      "type": "json"
+    },
+    "documents_required": {
+      "type": "json"
+    },
+    "key_feature": {
+      "type": "json"
+    },
+    "head_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "head_title": {
+      "type": "text"
+    }
+  }
+}

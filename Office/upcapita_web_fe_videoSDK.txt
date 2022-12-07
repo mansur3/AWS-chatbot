@@ -1,0 +1,9 @@
+1. price summery: taxes(need to show the percentage)(COMPLETED)
+2. Need to remove customer rating from meeting details page(Completed)
+3. Need to implement stop sharing functionality with icon
+4. need to show the share screen as same as main screen(Completed)
+5. full screen functionality and floating window functionality(Completed)
+6. onKey press send message functionality(Completed)
+7. show message notify functionality on message button(completed)
+8. need to upgrade the date functionality in the timer section of video calling
+9. we have to change the timing for meeting details and video meeting page
